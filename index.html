@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>ToDo</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="jquery-3.4.1.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body> 
+  <div class="wrap">
+    <div class="column-left">
+      <div class="column-title">Список дел:</div>
+      <ul class="todo-list">
+        <li class="empty-list">Cписок пуст...</li>
+      </ul>
+    </div>
+    <div class="column-right">
+      <div class="column-title">Добавить новое дело</div>
+      <div class="new-form">
+        <div class="deal">
+          <div class="deal-description">* Название</div>
+          <input class="deal-content deal-input" type="text" name="deal-title">
+        </div>
+        <div class="deal">
+          <div class="deal-description">* Описание</div>
+          <textarea class="deal-content deal-textarea"></textarea>
+        </div>
+        <button class="submit">Добавить дело</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
